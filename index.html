@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="lib/cordova-1.8.1.js"></script>
+	<script type="text/javascript" src="src/app.js"></script>
+	
+	<script type="text/javascript">
+	document.addEventListener('deviceready',onDeviceReady,false);
+
+	function onDeviceReady() {
+		app = new App();
+		app.init();
+	}
+	</script>
+</head>
+<body>
+	<h1>Boilerplate app</h1>
+</body>
+</html>
