@@ -15,8 +15,12 @@ App = (function(){
 		alert(__version);
 	}
 	
+	function _log(message) {
+		console.log(message);
+	}
 	// export public methods only
 	return {
-		init: init
+		init: init,
+		_log:_log
 	}
 });
