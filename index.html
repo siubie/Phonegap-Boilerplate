@@ -6,7 +6,9 @@
 	
 	<script type="text/javascript">
 	document.addEventListener('deviceready',onDeviceReady,false);
-
+	
+	// Event fired when the device is ready
+	// front controller pattern to initialice the application
 	function onDeviceReady() {
 		app = new App();
 		app.init();
